@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding:0;
+}
+
+.navbar {
+    display: flex;
+    background: rgb(131, 202, 225);
+    flex-direction: column;
+    height: 100%;
+    width: 18%;
+    position:fixed;
+    margin-left:0;
+  }
+  
+  .content {
+    display: flex;
+    background: white;
+    flex-direction: column;
+    height: 4000px;
+    flex-flow: column; 
+    margin-left:auto;
+    width: 82%;
+  }
+  
+  .resume-section{
+    flex-direction: row;
+    border-bottom:2px solid lightgray;
+    width: auto;
+    height: 100vh;
+    padding-left:2%;
+  }
