@@ -31,3 +31,31 @@
     height: 100vh;
     padding-left:2%;
   }
+
+  .name-header{
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .title-header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+
+  .location-header{
+    font-weight: bold;
+    color: grey;
+  }
+
+  .description-paragraph{
+    margin-top:5rem;
+    margin-bottom:5rem;
+    font-size:medium;
+  }
+
+  .download-href{
+    font-size: medium;
+  }
