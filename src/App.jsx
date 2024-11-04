@@ -10,6 +10,7 @@ function App() {
 
   return (
     <>
+    <div class="container-fluid p-0">
     <Navigation/>
     <About/>
     <Experience/>
@@ -17,6 +18,7 @@ function App() {
     <Projects/>
     <Skills/>
     <Awards/>
+    </div>
     </>
   )
 }
