@@ -124,26 +124,17 @@ section.resume-section {
    margin-bottom: 0 !important; /* Reduced bottom margin */
 }
 
-section.resume-section .resume-item .resume-date {
-   /* Removed min-width for better responsiveness */
-}
-
 @media (min-width: 768px) {
    section.resume-section {
-       min-height: auto; /* Allow height to adjust based on content */
-   }
-
-   section.resume-section .resume-item .resume-date {
-       /* Removed min-width for better responsiveness */
+       min-height: auto; /* Allow height to adjust based on content on smaller screens */
    }
 }
 
 @media (min-width: 992px) {
    section.resume-section {
-       padding-top: 0 !important; /* Reduced top padding */
-       padding-bottom: 0 !important; /* Reduced bottom padding */
-       margin-top: 0 !important; /* Reduced top margin */
-       margin-bottom: 0 !important; /* Reduced bottom margin */
+       min-height: 100vh; /* Keep min-height as 100vh for larger screens */
+       padding-top: 3rem !important; /* Optional: Adjust padding if needed */
+       padding-bottom: 3rem !important; /* Optional: Adjust padding if needed */
    }
 }
 
