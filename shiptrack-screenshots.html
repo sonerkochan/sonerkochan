@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Screenshots of SportArete Project">
+    <title>SportArete - Screenshots</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .screenshot-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .screenshot {
+            max-width: 80%;
+            margin: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .back-button {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .back-button:hover {
+            background-color: #5a6268;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">SportArete Project Screenshots</h1>
+        
+        <a href="index.html" class="back-button">Go Back</a>
+        
+        <div class="row">
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/1.png" alt="Screenshot 1" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 1 - Homepage</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/2.png" alt="Screenshot 2" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 2 - Products Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/3.png" alt="Screenshot 3" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 3 - Brands Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/4.png" alt="Screenshot 4" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 4 - Categories Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/5.png" alt="Screenshot 5" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 5 - Product Details Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/6.png" alt="Screenshot 6" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 6 - Reviews Section</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/7.png" alt="Screenshot 7" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 7 - Cart Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/8.png" alt="Screenshot 8" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 8 - Checkout Details Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/9.png" alt="Screenshot 9" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 9 - Order History</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/10.png" alt="Screenshot 10" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 10 - Admin Menu</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/11.png" alt="Screenshot 11" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 11 - All Orders Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/12.png" alt="Screenshot 12" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 12 - Login Page</p>
+            </div>
+            <div class="col-md-6 screenshot-container">
+                <img src="img/SportArete/13.png" alt="Screenshot 13" class="screenshot" onclick="openModal(this)">
+                <p>Screenshot 13 - Register Page</p>
+            </div>
+        </div>
+        
+        <a href="previousPage.html" class="back-button">Go Back</a>
+    </div>
+
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Screenshot</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="modalImage" src="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function openModal(element) {
+            const src = element.src;
+            document.getElementById('modalImage').src = src;
+            $('#imageModal').modal('show');
+        }
+    </script>
+</body>
+</html>
