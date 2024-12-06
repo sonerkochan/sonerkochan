@@ -10,7 +10,7 @@ export default function Experience(){
               <h3 className="mb-0">Software Developer</h3>
               <div className="subheading mb-3">Ember Eye Studio</div>
               <p>
-			  Transforming innovative ideas into seamless software solutions.
+		Crafting seamless user experiences and dynamic web solutions.
               </p>
             </div>
             <div className="resume-date text-md-right">
