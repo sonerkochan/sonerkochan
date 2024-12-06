@@ -1,4 +1,4 @@
-export default function About(){
+fiexport default function About(){
     return (
         <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div className="my-auto">
@@ -11,7 +11,7 @@ export default function About(){
             <a href="mailto:soner.kochan@yahoo.com">soner.kochan@yahoo.com</a>
           </div>
           <p className="mb-5">
-            As a third-year student at "Angel Kanchev" University of Ruse, I am an
+            As a final-year student at "Angel Kanchev" University of Ruse, I am an
             aspiring web developer with a deep passion for web design and
             development.
           </p>
