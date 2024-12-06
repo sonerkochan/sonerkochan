@@ -5,6 +5,18 @@ export default function Experience(){
         id="experience">
         <div className="my-auto">
           <h2 className="mb-5">Experience</h2>
+		  <div className="resume-item d-flex flex-column flex-md-row mb-5">
+            <div className="resume-content mr-auto">
+              <h3 className="mb-0">Software Developer</h3>
+              <div className="subheading mb-3">Ember Eye Studio</div>
+              <p>
+			  Transforming innovative ideas into seamless software solutions.
+              </p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2024 - Present</span>
+            </div>
+          </div>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
             <div className="resume-content mr-auto">
               <h3 className="mb-0">Programming Instructor</h3>
