@@ -1,4 +1,4 @@
-fiexport default function About(){
+export default function About(){
     return (
         <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div className="my-auto">
