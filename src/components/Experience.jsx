@@ -14,7 +14,7 @@ export default function Experience(){
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2024 - Present</span>
+              <span className="text-primary">October 2022 - Present</span>
             </div>
           </div>
           <div className="resume-item d-flex flex-column flex-md-row mb-5">
